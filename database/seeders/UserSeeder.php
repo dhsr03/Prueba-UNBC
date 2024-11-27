@@ -17,6 +17,7 @@ class UserSeeder extends Seeder
         'last_name' => 'Soto',
         'email' => 'dhsr03@gmail.com',
         'phone' => '3204236748',
+        'is_active' => 1,
         'password' => bcrypt('Daniel0*'),
        ]);
        $user->assignRole('Administrador');
